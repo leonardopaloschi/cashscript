@@ -1,0 +1,13 @@
+RANGE January 2025 to March 2025
+GOAL $5000
+INCOME job $3000 monthly(0 to 2)
+INCOME freelance $500 month(4)
+EXPENSE rent $1000 monthly(0 to 2) TAG fixed
+IF month in (0 to 1) {
+    SAVE emergency $500 monthly(0 to 1)
+}
+LOAN car $2000 at $500 monthly(0 to 2) TAG fixed
+INVEST stocks $1000, 10% monthly(0 to 2) TAG variable
+IF month in (0 to 1) {
+    INVEST crypto $500, 5% monthly(0 to 1)
+}

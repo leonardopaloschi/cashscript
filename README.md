@@ -24,7 +24,7 @@ A ideia nasceu da frustração com planilhas desorganizadas e sistemas complicad
 - Sintaxe simples, inspirada em pseudo-código.
 - Sistema de repetição (mensal, bimestral, trimestral, etc).
 - Controle de fluxo com `IF` baseado em intervalo de meses.
-- Suporte a juros compostos nos investimentos.
+- Suporte a juros compostos em investimentos únicos realizados em um mês específico.
 - Tags para categorização e rastreabilidade.
 - Geração de relatório detalhado mês a mês e total (`report.txt`).
 
@@ -69,7 +69,7 @@ INCOME Salario $3000 monthly (1 to 12) TAG Trabalho
 EXPENSE Aluguel $1500 monthly (1 to 12)
 SAVE Emergencia $200 monthly (1 to 6)
 LOAN Casa $150000 at $800 monthly (1 to 120)
-INVEST Fundos $500, 2% month (9) TAG cdi
+INVEST Fundos $500, 2% month (9) TAG cdi  # investimento único em um mês fixo
 
 IF month in (12 to 2) {
     INVEST Natal $200, 1% month (12) TAG Natalino
@@ -98,7 +98,7 @@ income          = "INCOME", identifier, "$", number, repeat_or_target, [ tag ] ;
 expense         = "EXPENSE", identifier, "$", number, repeat_or_target, [ tag ] ;
 save            = "SAVE", identifier, "$", number, repeat_or_target, [ tag ] ;
 loan            = "LOAN", identifier, "$", number, "at", "$", number, repeat_or_target , [ tag ] ;
-invest          = "INVEST", identifier, "$", number, ",", number "%", repeat_or_target, [ tag ] ;
+invest          = "INVEST", identifier, "$", number, ",", number "%", month_target, [ tag ] ;
 
 if_statement    = "IF", condition, "{", { statement }, "}" ;
 condition       = "month", "in", "(", interval ")" ;

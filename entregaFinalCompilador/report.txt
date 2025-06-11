@@ -1,0 +1,116 @@
+
+--- Monthly Financial Summary ---
+Month: January 2025
+  Income (+): $3000 (TAG: Trabalho), $1000 (TAG: Extra), $100 (TAG: Condicional), $100, $50 (TAG: Aniversario) (Total: $4250)
+  Expense (-): $1500, $500 (TAG: Essencial), $100 (TAG: Transporte), $50 (TAG: Teste), $150 (Total: $2300)
+  Save (-): $200, $200 (Total: $400)
+  Loan Payment (-): $800, $100 (Total: $900)
+  Invest (-): $0 (Total: $0)
+  Total Investment Return (+) (with compound principal): $0.00 (Total: $0.00)
+  Monthly Balance: $650.00
+
+Month: February 2025
+  Income (+): $3000 (TAG: Trabalho), $1000 (TAG: Extra) (Total: $4000)
+  Expense (-): $1500, $500 (TAG: Essencial), $100 (TAG: Transporte) (Total: $2100)
+  Save (-): $200, $50 (TAG: Bônus) (Total: $250)
+  Loan Payment (-): $800 (Total: $800)
+  Invest (-): $0 (Total: $0)
+  Total Investment Return (+) (with compound principal): $0.00 (Total: $0.00)
+  Monthly Balance: $850.00
+
+Month: March 2025
+  Income (+): $3000 (TAG: Trabalho), $1000 (TAG: Extra) (Total: $4000)
+  Expense (-): $1500, $500 (TAG: Essencial), $100 (TAG: Transporte) (Total: $2100)
+  Save (-): $200, $50 (TAG: Bônus) (Total: $250)
+  Loan Payment (-): $800 (Total: $800)
+  Invest (-): $0 (Total: $0)
+  Total Investment Return (+) (with compound principal): $0.00 (Total: $0.00)
+  Monthly Balance: $850.00
+
+Month: April 2025
+  Income (+): $3000 (TAG: Trabalho) (Total: $3000)
+  Expense (-): $1500, $500 (TAG: Essencial), $100 (TAG: Transporte) (Total: $2100)
+  Save (-): $200 (Total: $200)
+  Loan Payment (-): $800 (Total: $800)
+  Invest (-): $0 (Total: $0)
+  Total Investment Return (+) (with compound principal): $0.00 (Total: $0.00)
+  Monthly Balance: $-100.00
+
+Month: May 2025
+  Income (+): $3000 (TAG: Trabalho) (Total: $3000)
+  Expense (-): $1500, $500 (TAG: Essencial), $100 (TAG: Transporte) (Total: $2100)
+  Save (-): $200 (Total: $200)
+  Loan Payment (-): $800 (Total: $800)
+  Invest (-): $0 (Total: $0)
+  Total Investment Return (+) (with compound principal): $0.00 (Total: $0.00)
+  Monthly Balance: $-100.00
+
+Month: June 2025
+  Income (+): $3000 (TAG: Trabalho), $555 (Total: $3555)
+  Expense (-): $1500, $500 (TAG: Essencial), $100 (TAG: Transporte) (Total: $2100)
+  Save (-): $200 (Total: $200)
+  Loan Payment (-): $800 (Total: $800)
+  Invest (-): $0 (Total: $0)
+  Total Investment Return (+) (with compound principal): $0.00 (Total: $0.00)
+  Monthly Balance: $455.00
+
+Month: July 2025
+  Income (+): $3000 (TAG: Trabalho) (Total: $3000)
+  Expense (-): $1500, $500 (TAG: Essencial), $100, $100 (TAG: Transporte) (Total: $2200)
+  Save (-): $0 (Total: $0)
+  Loan Payment (-): $800 (Total: $800)
+  Invest (-): $0 (Total: $0)
+  Total Investment Return (+) (with compound principal): $0.00 (Total: $0.00)
+  Monthly Balance: $0.00
+
+Month: August 2025
+  Income (+): $3000 (TAG: Trabalho) (Total: $3000)
+  Expense (-): $1500, $500 (TAG: Essencial), $100 (TAG: Transporte) (Total: $2100)
+  Save (-): $0 (Total: $0)
+  Loan Payment (-): $800 (Total: $800)
+  Invest (-): $0 (Total: $0)
+  Total Investment Return (+) (with compound principal): $0.00 (Total: $0.00)
+  Monthly Balance: $100.00
+
+Month: September 2025
+  Income (+): $3000 (TAG: Trabalho) (Total: $3000)
+  Expense (-): $1500, $500 (TAG: Essencial), $100 (TAG: Transporte) (Total: $2100)
+  Save (-): $0 (Total: $0)
+  Loan Payment (-): $800 (Total: $800)
+  Invest (-): $500 (TAG: cdi) (Total: $500)
+  Total Investment Return (+) (with compound principal): $0.00 (Total: $0.00)
+  Monthly Balance: $-400.00
+
+Month: October 2025
+  Income (+): $3000 (TAG: Trabalho) (Total: $3000)
+  Expense (-): $1500, $500 (TAG: Essencial), $100 (TAG: Transporte) (Total: $2100)
+  Save (-): $100 (TAG: Viagem) (Total: $100)
+  Loan Payment (-): $800 (Total: $800)
+  Invest (-): $0 (Total: $0)
+  Total Investment Return (+) (with compound principal): $510.00 (TAG: cdi) (Total: $510.00)
+Month: November 2025
+  Income (+): $3000 (TAG: Trabalho) (Total: $3000)
+  Expense (-): $1500, $500 (TAG: Essencial), $100 (TAG: Transporte) (Total: $2100)
+  Save (-): $0 (Total: $0)
+  Loan Payment (-): $800 (Total: $800)
+  Invest (-): $0 (Total: $0)
+  Total Investment Return (+) (with compound principal): $520.20 (TAG: cdi) (Total: $520.20)
+Month: December 2025
+  Income (+): $3000 (TAG: Trabalho) (Total: $3000)
+  Expense (-): $1500, $500 (TAG: Essencial), $100 (TAG: Transporte) (Total: $2100)
+  Save (-): $0 (Total: $0)
+  Loan Payment (-): $800 (Total: $800)
+  Invest (-): $200 (TAG: Natalino) (Total: $200)
+  Total Investment Return (+) (with compound principal): $530.60 (TAG: cdi) (Total: $530.60)
+
+--- Total Financial Summary ---
+Total Income: $39805
+Total Expense: $25500
+Total Save: $1600
+Total Loan Payment: $9700
+Total Invest (Debit): $700
+Total Investment Return: $1560.80
+Total Balance: $3865.80
+
+--- Goal Comparison ---
+Your total balance was $3865.80. You needed $96134.20 more to reach your goal of $100000.

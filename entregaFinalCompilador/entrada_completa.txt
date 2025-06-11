@@ -1,0 +1,48 @@
+RANGE January 2025 to December 2025
+
+// Teste de GOAL
+GOAL $100000
+
+// Testes de INCOME
+INCOME Salario $3000 monthly (1 to 12) TAG Trabalho
+INCOME Bonus $555 month (6)
+INCOME Freelance $200 daily (5, monthly (1 to 3)) TAG Extra
+
+// Testes de EXPENSE
+EXPENSE Aluguel $1500 monthly (1 to 12)
+EXPENSE Comida $500 monthly (1 to 12) TAG Essencial
+EXPENSE Lazer $100 month (7)
+EXPENSE Transporte $50 daily (2, monthly (1 to 12)) TAG Transporte
+
+// Testes de SAVE
+SAVE Emergencia $200 monthly (1 to 6)
+SAVE Ferias $100 month (10) TAG Viagem
+
+// Testes de LOAN
+LOAN Casa $150000 at $800 monthly (1 to 120)
+
+// Testes de INVEST
+INVEST Fundos $500, 2% month (9) TAG cdi
+
+// Testes de IF STATEMENT
+IF month in (1) {
+    INCOME ExtraIncome $100 monthly (1 to 1) TAG Condicional
+    EXPENSE ExtraExpense $50 monthly (1 to 1) TAG Teste
+}
+
+IF month in (2 to 3) {
+    SAVE BonusSave $50 monthly (2 to 3) TAG Bônus
+}
+
+IF month in (12 to 2) {
+    INVEST Natal $200, 1% month (12) TAG Natalino
+}
+
+// Testes de repetição BIMESTRAL, TRIMESTRAL, SEMESTRAL, ANUAL
+INCOME BimestralIncome $100 bimestral (1 to 12)
+EXPENSE TrimestralExpense $150 trimestral (1 to 12)
+SAVE SemestralSave $200 semestral (1 to 12)
+LOAN AnualLoan $1000 at $100 anual (1 to 12)
+
+// Teste de TAG sem repeat_or_target
+INCOME Presente $50 month (1) TAG Aniversario
